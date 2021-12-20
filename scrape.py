@@ -767,6 +767,83 @@ def add_gpu_info(instances):
             'gpu_count': 8,
             'cuda_cores': 55296, # Source: Asked Matthew Wilson at AWS as this isn't public anywhere. 
             'gpu_memory': 320 
+        },
+        'g4ad.8xlarge': {
+            'gpu_model': 'AMD Radeon Pro V520',
+            'compute_capability': ,
+            'gpu_count': ,
+            'cuda_cores': ,  
+            'gpu_memory':  128
+        },
+        'g4ad.xlarge': {
+            'gpu_model': 'AMD Radeon Pro V520',
+            'compute_capability': ,
+            'gpu_count': 1,
+            'cuda_cores': ,  
+            'gpu_memory': 16 
+        },
+        'g4ad.4xlarge': {
+            'gpu_model': 'AMD Radeon Pro V520',
+            'compute_capability': ,
+            'gpu_count': ,
+            'cuda_cores': ,  
+            'gpu_memory':  
+        },
+        'g4ad.2xlarge': {
+            'gpu_model': 'AMD Radeon Pro V520',
+            'compute_capability': ,
+            'gpu_count': ,
+            'cuda_cores': ,  
+            'gpu_memory':  
+        },
+        'g4ad.16xlarge': {
+            'gpu_model': 'AMD Radeon Pro V520',
+            'compute_capability': ,
+            'gpu_count': ,
+            'cuda_cores': ,  
+            'gpu_memory':  
+        },
+        'g5g.16xlarge': {
+            'gpu_model': 'NVIDIA T4G Tensor Core',
+            'compute_capability': ,
+            'gpu_count': 2,
+            'cuda_cores': ,  
+            'gpu_memory': 32
+        },
+        'g5g.4xlarge': {
+            'gpu_model': 'NVIDIA T4G Tensor Core',
+            'compute_capability': ,
+            'gpu_count': 1,
+            'cuda_cores': ,  
+            'gpu_memory': 16
+        },
+        'g5g.2xlarge': {
+            'gpu_model': 'NVIDIA T4G Tensor Core',
+            'compute_capability': ,
+            'gpu_count': 1,
+            'cuda_cores': ,  
+            'gpu_memory': 16
+        },
+        'g5g.xlarge': {
+            'gpu_model': 'NVIDIA T4G Tensor Core',
+            'compute_capability': ,
+            'gpu_count': 1,
+            'cuda_cores': ,  
+            'gpu_memory': 16 
+        },
+        'g5g.8xlarge': {
+            'gpu_model': 'NVIDIA T4G Tensor Core',
+            'compute_capability': ,
+            'gpu_count': 1,
+            'cuda_cores': ,  
+            'gpu_memory': 16 
+        },
+        'g5g.metal': {
+            'gpu_model': 'NVIDIA T4G Tensor Core',
+            'compute_capability': ,
+            'gpu_count': 2,
+            'cuda_cores': ,  
+            'gpu_memory': 32 
         }
     }
     for inst in instances:
